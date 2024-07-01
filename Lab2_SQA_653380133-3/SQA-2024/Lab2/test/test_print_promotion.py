@@ -6,10 +6,8 @@ import pytest
 import sys
 import os
 
-# เพิ่มพาธของ source ลงใน sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../source')))
 
-# นำเข้าฟังก์ชัน print_promotion จากโมดูลที่ถูกต้อง
 from print_promotion import print_promotion
 
 # TS001
